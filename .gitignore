@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/c++,vs,python
-# Edit at https://www.toptal.com/developers/gitignore?templates=c++,vs,python
+# Created by https://www.toptal.com/developers/gitignore/api/c++,vs,cmake,python
+# Edit at https://www.toptal.com/developers/gitignore?templates=c++,vs,cmake,python
 
 ### C++ ###
 # Prerequisites
@@ -35,6 +35,23 @@
 *.exe
 *.out
 *.app
+
+### CMake ###
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+### CMake Patch ###
+# External projects
+*-prefix/
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
@@ -540,4 +557,4 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
-# End of https://www.toptal.com/developers/gitignore/api/c++,vs,python
+# End of https://www.toptal.com/developers/gitignore/api/c++,vs,cmake,python
