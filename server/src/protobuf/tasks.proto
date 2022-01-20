@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package mkdocs.tasks;
+import "google/protobuf/timestamp.proto";
+
+message Task{
+    bool completed = 1; // if the task is completed or not
+    string description = 2; // the text of the task
+    google.protobuf.Timestamp modification = 3; // the last modification time
+    repeated Task sub_tasks = 4; // subtasks
+}
+
