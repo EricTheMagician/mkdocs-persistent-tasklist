@@ -558,3 +558,6 @@ MigrationBackup/
 .ionide/
 
 # End of https://www.toptal.com/developers/gitignore/api/c++,vs,cmake,python
+
+# Add the default sqlite db file
+db.sqlite
